@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Products - Sky Yalla Ltd</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta
+    name="description"
+    content="Explore Sky Yalla products: TekeTeke for public transport, FlashPay for retail and supermarkets, and Capital Assets for rent collections."
+  />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand">
+        <img src="image/sky-yalla-logo.jpg" alt="Sky Yalla Ltd logo" class="brand-logo" />
+        <div class="brand-text">
+          <div class="brand-name">Sky Yalla Ltd</div>
+          <div class="brand-sub">Fintech for movement & everyday life</div>
+        </div>
+      </a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        &#9776;
+      </button>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="index.html#home">Home</a>
+        <a href="products.html" class="nav-active">Products</a>
+        <a href="about.html">About</a>
+        <a href="index.html#contact" class="nav-cta">Talk to us</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- MAIN -->
+  <main>
+    <section class="hero hero-products">
+      <div class="container narrow">
+        <div class="eyebrow">
+          <span class="eyebrow-dot"></span>
+          Sky Yalla products
+        </div>
+        <h1 class="hero-title about-title">
+          One wallet engine, three product lines.
+        </h1>
+        <p class="hero-sub">
+          TekeTeke for commuter transport, FlashPay for retail, and Capital Assets for rent - all powered by the same Sky
+          Yalla wallet and payout engine.
+        </p>
+      </div>
+    </section>
+
+    <!-- TEKETEKE -->
+    <section class="section" id="teketeke">
+      <div class="container">
+        <span class="badge">TekeTeke | Public transport</span>
+        <div class="section-header">
+          <h2 class="section-title">TekeTeke - wallets for matatus, buses, taxis and bodas</h2>
+          <p class="section-sub">
+            Our first product going live. Built around SACCOs, stages and the reality of targets, daily fees and crew
+            rotations.
+          </p>
+        </div>
+
+        <div class="product-layout">
+          <div class="product-copy">
+            <p class="body-text">
+              With <strong>TekeTeke</strong>, each vehicle gets its own wallet. Fares come in, SACCO fees, savings and
+              loan deductions are applied, and what remains is the closing balance. Everyone - owner, crew and SACCO -
+              can see the same numbers.
+            </p>
+            <ul class="body-list">
+              <li>Wallet per vehicle and per SACCO</li>
+              <li>Daily fee, savings and loan deduction rules</li>
+              <li>USSD and Paybill flows for passengers</li>
+              <li>Dashboards for SACCO staff, management and owners</li>
+            </ul>
+          </div>
+
+          <div class="product-cards">
+            <div class="card">
+              <div class="card-tag">For SACCOs</div>
+              <h3 class="card-title">Register your SACCO on TekeTeke</h3>
+              <p class="card-body">
+                Ideal for matatu and bus SACCOs that want clean daily fees, savings and loan deductions per vehicle - with
+                proper reports.
+              </p>
+              <ul class="card-list">
+                <li>Wallets per vehicle and per route</li>
+                <li>SACCO staff and management dashboards</li>
+                <li>Exportable reports for regulators and audits</li>
+              </ul>
+              <div class="card-link">
+                <a href="mailto:businesses@skyyalla.com?subject=TekeTeke%20SACCO%20registration&body=Tell%20us%20about%20your%20SACCO%20(name%2C%20fleet%20size%2C%20routes)%20and%20we%20will%20share%20onboarding%20steps.">
+                  Email us to register your SACCO &rarr;
+                </a>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-tag">For vehicle owners</div>
+              <h3 class="card-title">Onboard your matatu, taxi or boda</h3>
+              <p class="card-body">
+                For individual owners who want to see daily income, SACCO fees, savings and loans clearly per vehicle.
+              </p>
+              <ul class="card-list">
+                <li>Wallet per vehicle with daily closing balance</li>
+                <li>Cash and M-Pesa records under one view</li>
+                <li>Owner dashboard for daily, weekly and monthly views</li>
+              </ul>
+              <div class="card-link">
+                <a href="mailto:businesses@skyyalla.com?subject=TekeTeke%20vehicle%20onboarding&body=Share%20your%20name%2C%20SACCO%2C%20vehicle%20plate%2C%20and%20contacts%20to%20start%20onboarding.">
+                  Register your vehicle &rarr;
+                </a>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-tag">Partners</div>
+              <h3 class="card-title">Integrate with TekeTeke</h3>
+              <p class="card-body">
+                For banks, POS providers and other partners who want to plug into TekeTeke wallets and data.
+              </p>
+              <ul class="card-list">
+                <li>API access to wallet and transaction feeds (roadmap)</li>
+                <li>Risk and performance reports for financing</li>
+                <li>Co-branded products for SACCOs and fleets</li>
+              </ul>
+              <div class="card-link">
+                <a href="mailto:businesses@skyyalla.com?subject=TekeTeke%20partnership">
+                  Talk to us about a partnership &rarr;
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FLASHPAY -->
+    <section class="section section-alt" id="flashpay">
+      <div class="container">
+        <span class="badge">FlashPay | Retail and supermarkets</span>
+        <div class="section-header">
+          <h2 class="section-title">FlashPay - USSD checkout for shops and supermarkets</h2>
+          <p class="section-sub">
+            Short USSD codes and STK push at the till. Designed to reduce queues and manual errors, and to give owners
+            clean branch-level reporting.
+          </p>
+        </div>
+
+        <div class="product-layout">
+          <div class="product-copy">
+            <p class="body-text">
+              With <strong>FlashPay</strong>, a customer dials a short USSD code linked to a branch or till, approves the
+              M-Pesa STK push, and the cashier is done. It can sit on top of a full POS system or work with a basic phone
+              at the counter.
+            </p>
+            <ul class="body-list">
+              <li>USSD codes mapped to branches, tills and cashiers</li>
+              <li>Automatic STK push on top of M-Pesa</li>
+              <li>Success or failure feedback to your system (where integrated)</li>
+              <li>Branch and cashier-level analytics for owners</li>
+            </ul>
+          </div>
+
+          <div class="product-cards">
+            <div class="card">
+              <div class="card-tag">Supermarkets and chains</div>
+              <h3 class="card-title">FlashPay for multi-branch retailers</h3>
+              <p class="card-body">
+                Ideal for supermarkets and chains that want faster payments and cleaner reporting across branches.
+              </p>
+              <ul class="card-list">
+                <li>Unique USSD structure per branch</li>
+                <li>Cashier-level tracking for every till</li>
+                <li>Central dashboard for owners and HQ</li>
+              </ul>
+              <div class="card-link">
+                <a href="mailto:businesses@skyyalla.com?subject=FlashPay%20supermarket%20pilot">
+                  Start a FlashPay pilot &rarr;
+                </a>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-tag">SMEs and shops</div>
+              <h3 class="card-title">FlashPay for single-location businesses</h3>
+              <p class="card-body">
+                For hardware shops, salons, pharmacies, restaurants, kiosks and other SMEs using tills or simple phones.
+              </p>
+              <ul class="card-list">
+                <li>Simple USSD code for your business</li>
+                <li>Instant STK push to your till</li>
+                <li>Daily sales summaries</li>
+              </ul>
+              <div class="card-link">
+                <a href="mailto:businesses@skyyalla.com?subject=FlashPay%20SME%20registration">
+                  Register your business &rarr;
+                </a>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-tag">POS providers</div>
+              <h3 class="card-title">Integrate FlashPay into your POS</h3>
+              <p class="card-body">
+                For POS companies that want to add USSD and STK payments without building directly on mobile money APIs.
+              </p>
+              <ul class="card-list">
+                <li>Callbacks and APIs for payment confirmation</li>
+                <li>Shared revenue models with POS providers</li>
+                <li>Joint go-to-market with retailers</li>
+              </ul>
+              <div class="card-link">
+                <a href="mailto:businesses@skyyalla.com?subject=FlashPay%20POS%20integration">
+                  Discuss POS integration &rarr;
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CAPITAL ASSETS -->
+    <section class="section" id="capital-assets">
+      <div class="container">
+        <span class="badge">Capital Assets | Rent and property</span>
+        <div class="section-header">
+          <h2 class="section-title">Capital Assets - rent collections with clear trails</h2>
+          <p class="section-sub">
+            Wallets per unit, per building and per landlord. Every rent payment is tied to the right house and month,
+            automatically.
+          </p>
+        </div>
+
+        <div class="product-layout">
+          <div class="product-copy">
+            <p class="body-text">
+              <strong>Capital Assets</strong> gives landlords and property managers a clear view of who has paid, who is
+              late, and how each building is performing. Tenants pay via USSD or Paybill, and payments are mapped to the
+              correct unit and period.
+            </p>
+            <ul class="body-list">
+              <li>Wallets per building, per unit and per landlord account</li>
+              <li>Arrears tracking and payment history per tenant</li>
+              <li>Exports for accountants and owners</li>
+            </ul>
+          </div>
+
+          <div class="product-cards">
+            <div class="card">
+              <div class="card-tag">Landlords</div>
+              <h3 class="card-title">Onboard your rental units</h3>
+              <p class="card-body">
+                Best for landlords with a few units or blocks who want simple, honest rent tracking without manual books.
+              </p>
+              <ul class="card-list">
+                <li>Wallet per unit and per building</li>
+                <li>Clear tenant payment history</li>
+                <li>Statements you can share</li>
+              </ul>
+              <div class="card-link">
+                <a href="mailto:businesses@skyyalla.com?subject=Capital%20Assets%20landlord%20onboarding">
+                  Register as a landlord &rarr;
+                </a>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-tag">Property managers</div>
+              <h3 class="card-title">Capital Assets for agencies</h3>
+              <p class="card-body">
+                For agencies handling many landlords, estates and buildings.
+              </p>
+              <ul class="card-list">
+                <li>Wallets per landlord and per property</li>
+                <li>Arrears and performance views per building</li>
+                <li>Exports for accountants and owners</li>
+              </ul>
+              <div class="card-link">
+                <a href="mailto:businesses@skyyalla.com?subject=Capital%20Assets%20property%20manager">
+                  Book an agency demo &rarr;
+                </a>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-tag">Partners</div>
+              <h3 class="card-title">Integrate with Capital Assets</h3>
+              <p class="card-body">
+                For banks, microfinance and other partners who want rental data for financing and risk decisions.
+              </p>
+              <ul class="card-list">
+                <li>Wallet and rent history per unit</li>
+                <li>Performance and risk reports (roadmap)</li>
+                <li>White-label options for partners</li>
+              </ul>
+              <div class="card-link">
+                <a href="mailto:businesses@skyyalla.com?subject=Capital%20Assets%20partnership">
+                  Talk to us about rental data &rarr;
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span>&copy; <span id="year"></span> Sky Yalla Ltd. All rights reserved.</span>
+      <span class="footer-tagline">Kenya | Smart payment rails for everyday movement</span>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+    const navToggle = document.getElementById("navToggle");
+    const navLinks = document.getElementById("navLinks");
+    navToggle.addEventListener("click", () => {
+      navLinks.classList.toggle("open");
+    });
+  </script>
+</body>
+</html>
