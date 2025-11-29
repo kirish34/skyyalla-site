@@ -7,7 +7,8 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
 const PORT = process.env.PORT || 3000;
-const DATA_FILE = path.join(__dirname, "contact-submissions.json");
+const DATA_DIR = process.env.DATA_DIR || __dirname;
+const DATA_FILE = path.join(DATA_DIR, "contact-submissions.json");
 const PUBLIC_DIR = __dirname;
 
 const mimeTypes = {
