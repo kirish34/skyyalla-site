@@ -5,5 +5,7 @@
   "scripts": {
     "start": "node server.js"
   },
-  "dependencies": {}
+  "dependencies": {
+    "@resend/resend": "^2.1.0"
+  }
 }
